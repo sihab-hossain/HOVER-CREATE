@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    font-family: 'Raleway'sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.btn-button{
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0px 0px 0px 100px;
+    padding: 20px;
+    position: relative;
+    background-color: rgb(231, 79, 9);
+    border: none;
+    width: 200px;
+    border-radius: 6px;
+    text-align: center;
+    transition: 0.4s all;
+    text-decoration: none;
+    overflow: hidden;
+}
+.btn-button:hover{
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 5px #97b1bf;
+      
+}
+.btn-button:focus{
+    outline: none;
+}
